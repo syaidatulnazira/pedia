@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Wide Fund for Nature (WWF)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>World Wide Fund for Nature</h1>
+    <p class="subtitle">From Wikipedia, the free encyclopedia</p>
+  </header>
+
+  <div class="content">
+    <!-- MAIN ARTICLE -->
+    <main>
+      <section id="intro">
+        <p>
+          <strong>World Wide Fund for Nature (WWF)</strong> is an international
+          non-governmental organization working in the field of wilderness preservation
+          and the reduction of human impact on the environment.
+        </p>
+        <button onclick="toggleSection('history')">Show / Hide History</button>
+      </section>
+
+      <section id="history" class="hidden">
+        <h2>History</h2>
+        <p>
+          WWF was founded in 1961 and has grown to become one of the world’s largest
+          and most effective conservation organizations.
+        </p>
+      </section>
+
+      <section>
+        <h2>Mission</h2>
+        <p>
+          WWF’s mission is to stop the degradation of the planet’s natural environment
+          and to build a future in which humans live in harmony with nature.
+        </p>
+      </section>
+
+      <section>
+        <h2>Activities</h2>
+        <ul>
+          <li>Wildlife conservation</li>
+          <li>Climate change action</li>
+          <li>Forest and ocean protection</li>
+          <li>Sustainable development</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>References</h2>
+        <a href="https://en.wikipedia.org/wiki/World_Wide_Fund_for_Nature" target="_blank">
+          Wikipedia – World Wide Fund for Nature
+        </a>
+      </section>
+    </main>
+
+    <!-- INFOBOX -->
+    <aside class="infobox">
+      <img src="images/wwf-logo.png" alt="WWF Logo">
+      <table>
+        <tr><th>Founded</th><td>1961</td></tr>
+        <tr><th>Type</th><td>NGO</td></tr>
+        <tr><th>Headquarters</th><td>Gland, Switzerland</td></tr>
+        <tr><th>Focus</th><td>Nature conservation</td></tr>
+        <tr><th>Website</th>
+          <td><a href="https://www.worldwildlife.org" target="_blank">wwf.org</a></td>
+        </tr>
+      </table>
+    </aside>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
